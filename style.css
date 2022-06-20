@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    background-image: url(bg1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Data{
+    width: 75%;
+    height: 100%;
+    color: #CFD8DC;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+}
+
+.Search{
+    width: 40%;
+    height: 100%;
+    background-color: #0F2027;
+    opacity: .8;
+}
+
+input{
+    width: 58%;
+    height: 25px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #CFD8DC;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    color: #fff
+}
+
+button{
+    width: 26%;
+    height: 38px;
+    background: orangered;
+    border: none;
+}
+
+.data-h1{
+    margin: 0px 0px 70px 60px;
+    font-size: 25px;
+}
+
+.data-h2{
+    margin: 0px 0px 70px 30px;
+    font-size: 20px;
+}
+
+h4{
+    font-size: 15px;
+}
+
+
+.data-d{
+    margin: 0px 0px 70px 30px;
+}
+
+ul{
+    height: 185px;
+    color: #CFD8DC;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: 1px solid #CFD8DC;
+}
+
+.detail{
+    margin: 15px 0px 20px 40px;
+    color: #CFD8DC;
+    font-weight: 100;
+}
+
+.weatherdetails{
+    color: #CFD8DC;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.border{
+    border-bottom: 1px solid white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.Weatherdetail{
+    height: 100px;
+    color: #CFD8DC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Weatherpercentage{
+    height: 100px;
+    color: #CFD8DC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-image: url(bg1.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        background-image: url(bg1.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .Search{
+        width: 100%;
+        height: 100%;
+        background-color: #0F2027;
+        opacity: .8;
+    }
+    .Data{
+        width: 100%;
+        height: 100%;
+        color: #CFD8DC;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-start;
+    
+    }
+    .data-h1{
+        margin: 0px 0px 120px 20px;
+        font-size: 15px;
+    }
+    
+    .data-h2{
+        margin: 0px 0px 120px 20px;
+        font-size: 15px;
+    }
+    
+    h4{
+        font-size: 10px;
+    }
+    ul{
+        display: none;
+    }
+
+    .data-d p{
+        font-size: 15px;
+    }
+
+
+    input{
+        width: 50%;
+        height: 25px;
+        background: none;
+        border: none;
+        border-bottom: 1px solid #CFD8DC;
+        padding: 5px;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-left: 40px;
+        color: #fff
+    }
+  }
+ 
+  @media only screen and (max-width: 1212px) {
+    input{
+        width: 40%;
+    }
+  }

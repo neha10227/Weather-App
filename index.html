@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="Data">
+                <div class="data-h1">
+                    <h1></h1>
+                </div>
+                <div class="data-h2">
+                    <h2></h2>
+                    <h4></h4>
+                </div>
+                <div class="data-d">
+                    <img>
+                    <p></p>
+                </div>
+            </div>
+            <div class="Search">
+                <form>
+                    <input type="text" placeholder="Another City" required>
+                    <button type="submit">Search</button>
+                </form>
+                <ul class="listgroup">
+                    <li>Bhopal</li>
+                    <li>Indore</li>
+                    <li>Delhi</li>
+                    <li>Noida</li>
+                </ul>
+                <div class="detail">
+                    <p>Weather Details</p>
+                </div>
+                <div class="weatherdetails">
+                    <div class="Weatherdetail">
+                        <p>Humidity</p>
+                        <p>Fahrenheit</p>
+                        <p>Wind Degree</p>
+                    </div>
+                    <div class="Weatherpercentage">
+                        <p id="humidity"></p>
+                        <p id="temp_f"></p>
+                        <p id="windy"></p>
+                    </div>     
+                </div>
+                <div class="border"></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
